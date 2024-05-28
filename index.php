@@ -69,7 +69,7 @@ if(isset($_POST["kyt-btn"])){
         if($ekleme){
             echo "<script>console.log('yonetici ekleme basarili.')</script>";
             
-            $control = "SELECT * FROM yoneticiler WHERE isim = '$isim'";
+            $control = "SELECT * FROM yoneticiler WHERE tel = '$tel_no'";
             $gonder = mysqli_query($connection, $control);
             if($gonder){
                 $yoneticiler = mysqli_num_rows($gonder);
