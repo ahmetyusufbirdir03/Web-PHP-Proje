@@ -158,6 +158,7 @@ else if(isset($_POST["grs-btn"])){
 <body>
     <header class="backImg text-center text-white">
         <div class="container">
+            <div class="tanitim-baslik mt-3"><h2><a href="https://github.com/ahmetyusufbirdir03/Web-PHP-Proje" style="text-decoration: none; color: wheat;">Git Hub Link</h2></a></div>
             <div class="tanitim-baslik mt-3">Hoşgeldiniz</div>
             <div class="tanitim-alt-baslik ">GİRİŞ VEYA KAYIT İÇİN TIKLAYINIZ</div>
             <a href="#signup" class="btn btn-lg p-lg-4 ">KAYIT OL</a>
