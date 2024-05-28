@@ -1,5 +1,8 @@
 # Web-PHP-Proje
 <p>
+<h2>Proje Tanıtımı</h2><br>
+Bu proje web tabanlı geliştirilmiş olup geliştirme aşamasında html, css, javascript ve php kullanılmıştır. Proje temel olarak basit işlevler gören bir tekstil yönetic paneli uygulamasıdır. Proje ve detayları ile ilgili video linki aşağıda verilmiştir.<br>
+
 <h2>Projeyi Kendi Bilgisayarımda Nasıl Çalıştırırım ?</h2><br>
 
 1-) Öncelikle bilgisayarınıza xampp uygulamasını kurunuz.<br>
