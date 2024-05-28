@@ -12,7 +12,7 @@ Yukarıdaki gösterilen apache ve mysql start tuşlarına basınız.<br>
 4-)Daha sonra bilgisayarınızdaki bir tarayıcıya(chrome,firefox, vb.) giriş yapınız ve adres çubuğuna localhost/phpmyadmin yazıp giriş yapınız.<br>
 
 5-) Aşağıdaki ekran açıldığında; <br>
-<img src="phpmyadmin.png"><br>
+<img src="phpmyadmin.jpg"><br>
 İlk olarak veritabanları butonuna tıklayınız. Açılan sayfada Veritabanı adı kısmına "veritabanim" yazınız. Yan taraftan görselde olduğu gibi seçim yaprak oluştur butnuna tıklayınız.<br>
 
 6-) "veritabanim" isimli yapınız oluştuğunda yapmanız gereken son şey tarayıcınızın adres çubuğuna localhost yazıp giriş yapmaktır. Geri kalan herşeyi kodlar halledecektir.
