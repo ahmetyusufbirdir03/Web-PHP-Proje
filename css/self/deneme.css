@@ -1,0 +1,229 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.right-con{
+    width: 75%;
+    height: 100%;
+    padding: 12.5px;
+    background-color: rgb(83, 80, 80);
+}
+.tables{
+    width: 100%;
+    height: 100%;
+}
+.left-con{
+    width: 25%;
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    height: 100%;
+    display: grid;
+}
+.ul_infos{
+    border-radius: 2rem;
+    /* border: ; */
+}
+li{
+    border: none;
+}
+.list_title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+li .list_btn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    text-align: left;
+}
+li .list_btn.active{
+    background-color: crimson;
+    color: white;
+}
+li .list_btn:hover:not(.active){
+    background-color: crimson;
+    color: white;
+    border: 2px solid white;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+}
+
+table{
+    margin: 0;
+    width: 100%;
+    height: 90%;
+    border-collapse: collapse;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border-radius: 1rem;
+}
+th, td{
+    text-align: left;
+    width: 16.6%;
+}
+tr:not(.last){
+    border-bottom: 1px solid white;
+}
+tr:hover:not(.first){
+    background-color: rgb(105, 101, 101) ;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-bottom: 13px;
+    height: 90%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+}
+.prfimg{
+    width: 40%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+}
+.infos{
+    border: 2px solid white;
+    width: 50%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+    display: block;
+    /* align-content: space-evenly;
+    justify-items: center; */
+}
+.infolabel{
+    border: 2px solid black;
+    height: 15.85%;
+    width: 98.5%;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.infolabel .title{
+    margin: 0;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    border: 0
+}
+
+.list_btn_inf{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    text-align: left;
+}
+.list_btn_inf:hover{
+    background-color: crimson;
+    color: white;
+    border: 2px solid white;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+    border-radius: 2rem;
+}
+.stok-table{
+    border: 0; 
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.stok-table th,td{
+    border: 0;
+    width: 14%;
+    text-align: center;
+   
+}
+.stok-table .title{
+    height: 20%;
+}
+.ekleme{
+    margin-left:10px ;
+    border: 2px solid red;
+    width: 97%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+}
+.form-ekle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+    height: 100%;
+    text-align: center;
+    width: 50%;
+}
+.form-ekle input, select{
+    background-color: #fff;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.9rem 0.9rem;
+    margin: 0.5rem 0.5rem;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    outline: none;
+}
+.form-ekle input:hover,select:hover{
+    border: 2px solid red;
+    box-shadow: -5px 5px rgb(0, 0, 0, 1);
+}
+.form-ekle input:focus,select:focus{
+    border: 2px solid red;
+    box-shadow: -5px 5px rgb(0, 0, 0, 1);
+}
+.form-ekle button{
+    width: 100px;
+    height: 50px;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+.right-con .form-ekle button:hover{
+    border: 2px solid red;
+    box-shadow: -5px 5px  rgb(0, 0, 0, 1);
+}
+.form-ekle h2{
+    margin: 0;
+    font-family:'Open Sans', sans-serif ;
+}
+
